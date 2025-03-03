@@ -40,7 +40,8 @@ site:target.com ext:sql | ext:db | ext:sqlite
 ```
 Find exposed Git repositories:
 ```
-site:target.com inurl:.git``` ```site:target.com inurl:.svn
+site:target.com inurl:.git
+site:target.com inurl:.svn
 ```
 Find leaked logs:
 ```
