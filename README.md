@@ -19,8 +19,8 @@ During the **reconnaisance** stage, we want to __learn__ as much about the targe
 
 We can use Google Dorking to find valuable information on the internet, with a customized, targeted Google search (or Dork)!
 
-[Google Dorking Commands](google_dorking/README.md)
-[Google Dorking Script](google_dorking/script.py)
+- [Google Dorking Commands](google_dorking/README.md)
+- [Google Dorking Script](google_dorking/script.py)
 
 ### Tech Profiling
 
