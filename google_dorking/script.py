@@ -73,14 +73,14 @@ def perform_dorking():
                             print(f"      {result}")
                             f.write(result + "\n")
                     else:
-                        print("   ❌ No results found.")
+                        print("   No results found.")
 
                 except Exception as e:
                     print(f"   Error querying {dork}: {e}")
 
                 time.sleep(random.uniform(2, 5))  # Avoid rate-limiting
 
-    print(f"\n📂 Results saved in: {output_file}")
+    print(f"\nResults saved in: {output_file}")
 
 if __name__ == "__main__":
     perform_dorking()
